@@ -1,11 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Attendee;
+namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class AttendeeController extends Controller
+class ReviewController extends Controller
 {
     /**
      * Display a listing of the resource.

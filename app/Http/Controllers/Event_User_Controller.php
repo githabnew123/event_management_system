@@ -1,11 +1,10 @@
 <?php
 
-namespace App\Http\Controllers\Organizer;
+namespace App\Http\Controllers;
 
-use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class OrganizerController extends Controller
+class Event_User_Controller extends Controller
 {
     /**
      * Display a listing of the resource.
