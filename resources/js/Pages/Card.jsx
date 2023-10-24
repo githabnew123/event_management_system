@@ -11,7 +11,7 @@ export default function Card() {
                         num.map(i => (
                             <div className='col col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-2 mb-3'>
                                 <div className="card">
-                                    <img src="" alt="ricardo" className="card-img-top img-thumbnail" />
+                                    <img src="https://www.photo-pick.com/static/img/blog/taking-pictures-time-sunrise-latter.jpg" alt="ricardo" className="card-img-top img-thumbnail" />
                                     <div className="card-body">
                                         <h5 className="card-title">Event Name</h5>
                                         <p className="card-text">Description</p>
