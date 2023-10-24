@@ -29,6 +29,10 @@ Route::get('/card', function () {
     return Inertia::render('Card');
 });
 
+Route::get('/event/create', function () {
+    return Inertia::render('Event/EventCreate');
+});
+
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
