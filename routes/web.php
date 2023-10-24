@@ -33,6 +33,10 @@ Route::get('/event/create', function () {
     return Inertia::render('Event/EventCreate');
 });
 
+Route::get('/event/edit', function () {
+    return Inertia::render('Event/EventEdit');
+});
+
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');

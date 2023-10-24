@@ -6,7 +6,8 @@ import PrimaryButton from '@/Components/PrimaryButton';
 import TextInput from '@/Components/TextInput';
 import { Head, Link, useForm } from '@inertiajs/react';
 
-export default function EventCreate() {
+export default function EventEdit() {
+
     const { data, setData, post, processing, errors, reset } = useForm({
         name: '',
         email: '',
@@ -32,7 +33,7 @@ export default function EventCreate() {
         // </>
         <GuestLayout>
             {/* <Head title="Register" /> */}
-            <h1 className='text-center'>Event Register</h1>
+            <h1 className='text-center'>Event Edit</h1>
             <form onSubmit={submit}>
                 {/* Event Name */}
                 <div>
